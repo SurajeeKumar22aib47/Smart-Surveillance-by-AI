@@ -1,0 +1,1 @@
+ "server_auth": {"password": "", "host": "192.168.43.125", "username": ""}, "mail_auth": {"password": "gen ai", "to": "sksurajee1245@gmail.com", "username": "sksurajee1245@gmail.com"}, "cam": {"duration": 10, "pic": false, "vid": true}}

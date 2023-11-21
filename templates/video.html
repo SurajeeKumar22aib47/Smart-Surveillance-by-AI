@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <img src="../static/weaponimage.png" style="width:70px; margin-top: 2%;">
+        <h1 style="margin-left: 15%;">Weapon Detection using Video.mp4 </h1>
+        <!-- Add a status message -->
+        <p id="detection_status" style="margin-left: 5%;"></p>
+    </div>
+</div>
+
+<div class="video-container">
+    <!-- Display the video feed -->
+    <div class="video-frame">
+        <img src="{{ url_for('video_feed') }}" width="80%" class="corner"></img>
+        <div id="detection_summary" class="summary-box"></div>
+    </div>
+</div>
+
+<!-- JavaScript section -->
+<script>
+    // Simulating detection status (replace this with your actual logic)
+    var detectionStatus = true; // Change this value based on your detection logic
+
+    // Get the status message element
+    var statusElement = document.getElementById('detection_status');
+
+    // Simulating the count of detected weapons (replace this with your actual count logic)
+    var detectedWeaponsCount = 5; // Change this value to the actual count
+
+    // Update the status message based on the detection status
+    if (detectionStatus) {
+        statusElement.innerText = 'Weapons Detected Near the Camera!';
+        
+        // Create and display a text summary near the detection box with the count of detected weapons
+        var summaryElement = document.getElementById('detection_summary');
+        var summaryText = 'Summary: ' + detectedWeaponsCount + ' Weapons Detected';
+        summaryElement.innerText = summaryText;
+    } else {
+        statusElement.innerText = 'No Weapons Detected';
+    }
+</script>
+<div class="video-container">
+  <img src="{{ url_for('webcam_video_feed') }}" width="80%" class="corner"></img>
+  <div id="detection_summary" class="summary-box"></div>
+</div>
+
+<script>
+  var videoFeed = document.querySelector('.corner');
+  var summaryElement = document.getElementById('detection_summary');
+
+  videoFeed.onload = function() {
+      // Get the summary text sent from Flask and display it
+      var summaryText = this.nextSibling.textContent;
+      summaryElement.innerText = summaryText;
+  };
+</script>
+{% for category, message in messages %}
+    <div class="alert alert-{{ category }}">
+        {{ message }}
+    </div>
+{% endfor %}
+{% endblock %}
