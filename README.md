@@ -59,3 +59,10 @@
 ## Conclusion  
 This **real-time weapon detection system** combines **deep learning, computer vision, and AI-powered automation** to deliver **proactive security**. With **instant alerts, live monitoring, and seamless CCTV integration**, it helps law enforcement agencies **prevent crimes before they escalate**, ensuring **public safety and national security**.
 
+---
+### 📩 Contact
+For queries, reach out via:
+📧 Email: sksurajee1245@gmail.com  
+🌐 Website: [Surajee Kumar S](https://surajee-kumar-portfolio.netlify.app/)  
+🔗 LinkedIn: [Surajee Kumar](https://www.linkedin.com/in/surajee-kumar-853909256)
+
