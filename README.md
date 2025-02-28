@@ -1,67 +1,131 @@
-# Real-Time Weapon Detection System using Generative AI & YOLO in Flask  
+# Real-Time Weapon Detection System using Generative AI & YOLO in Flask
 
-## Key Features  
+## 🚀 Project Overview
 
-### 1. Real-Time Weapon Detection  
-- Uses **YOLO-based deep learning models** fine-tuned on diverse datasets to detect a wide range of weapons.  
-- Processes live CCTV footage with minimal latency.  
-- High detection accuracy even in **crowded environments**.  
+This **Real-Time Weapon Detection System** leverages **Generative AI, YOLO-based deep learning models, and OpenCV** to detect a wide range of weapons in **real-time CCTV footage** with **high accuracy and minimal latency**. The system integrates seamlessly with existing surveillance infrastructure and provides **instant alerts** to law enforcement agencies to prevent security threats before escalation.
 
-![Real-Time Weapon Detection](https://github.com/user-attachments/assets/b9ea81a8-bcc6-4035-89de-c4256c9d3d26)  
+## 🛠️ Tech Stack & Skills Utilized
 
-### 2. Advanced AI & Computer Vision  
-- Fine-tuned **Generative AI models** for improved weapon classification and reduced false positives.  
-- Can detect **concealed weapons** under certain conditions using enhanced image analysis.  
-- Works under **various lighting and weather conditions**.  
+### **🔍 AI & Computer Vision**
 
+- **Deep Learning & CNN-based Detection** – Utilized **YOLOv8** for real-time object detection.
+- **Generative AI Fine-Tuning** – Improved detection accuracy and reduced false positives.
+- **OpenCV & Image Processing** – Enhanced video stream analysis for weapon classification.
+
+### **💻 Full-Stack Development**
+
+- **Flask (Backend API)** – Developed a **real-time monitoring dashboard** with a secure API.
+- **Web-Based Live Dashboard** – Built using **HTML, CSS, JavaScript, Flask & Bootstrap**.
+- **PostgreSQL Database** – Logs detections, timestamps, and alerts.
+
+### **🛡️ Security & Deployment**
+
+- **Automated Alerts** – Sends **instant notifications** to security agencies via email & SMS.
+- **Cloud & On-Prem Deployment** – Supports **AWS, GCP, or on-prem** server installations.
+- **GDPR & Privacy Compliance** – Does not store personal footage, ensuring ethical AI usage.
+
+## 🔑 Key Features
+
+### **1️⃣ Real-Time Weapon Detection**
+
+- Utilizes **YOLOv8** for high-speed weapon detection.
+- Works in **crowded environments** with high accuracy.
+- Processes **multiple video streams** simultaneously.
+
+### **2️⃣ AI-Powered Computer Vision**
+
+- Fine-tuned **Generative AI models** improve detection accuracy.
+- Detects **concealed weapons** under certain lighting conditions.
+- Works under **various weather & environmental factors**.
+
+### **3️⃣ Instant Alerts & Notifications**
+
+- Sends **real-time alerts** to **law enforcement agencies**.
+- Alerts contain **weapon type, location, and timestamp**.
+- Can trigger **emergency alarms & security protocols**.
+
+### **4️⃣ Seamless CCTV Integration**
+
+- Supports **existing surveillance infrastructure**.
+- Works with **IP cameras, RTSP streams, and edge devices**.
+- Supports **on-prem & cloud-based deployments**.
+
+### **5️⃣ Live Monitoring & Dashboard**
+
+- **Flask-based web interface** for real-time monitoring.
+- **Graphical analytics & incident reports** for security teams.
+- **Role-based access** for law enforcement personnel.
 ![Advanced AI & Computer Vision](https://github.com/user-attachments/assets/fb3f495d-35c7-4230-9b35-515df5eb0ef4)  
 
-### 3. Instant Alerts & Notifications  
-- **Automated real-time alerts** sent to **police, military, and security agencies** upon detection.  
-- Alerts include **weapon type, location, and timestamp**.  
-- Can trigger **alarms or emergency protocols** in security control centers.  
+### **6️⃣ Scalable & Customizable Solution**
 
+- Can be deployed in **airports, schools, stadiums, and government buildings**.
+- Supports **facial recognition & anomaly detection** integration.
+- API-based integration with **law enforcement databases**.
 ![Instant Alerts](https://github.com/user-attachments/assets/687a6964-7509-4af0-814e-dcd8eb4529bc)  
 
-### 4. Seamless Integration with Surveillance Systems  
-- Compatible with **existing CCTV infrastructure** without additional hardware.  
-- Supports multiple video feeds simultaneously.  
-- **Cloud-based or on-premise deployment** options for flexible scalability.  
+### **7️⃣ Privacy & Ethical AI Compliance**
 
-![Surveillance System Integration](https://github.com/user-attachments/assets/1ef84f3d-bc5f-4b14-a5c6-cf64b79b4444)  
+- Processes **real-time data without storing personal footage**.
+- Adheres to **GDPR & AI Ethics Guidelines**.
+- Maintains **secure logs for security teams**.
+ ![Real-Time Weapon Detection](https://github.com/user-attachments/assets/b9ea81a8-bcc6-4035-89de-c4256c9d3d26)
 
-### 5. Live Dashboard & Monitoring  
-- Web-based interface built with **Flask** for monitoring detections in real time.  
-- **Graphical analysis and incident reports** for security teams.  
-- Role-based access for **law enforcement and security personnel**.  
+## 📌 Applications
 
-![Live Dashboard](https://github.com/user-attachments/assets/261167c2-95dc-4d4b-b6e7-3f7688ced9a2)  
+✅ **Public Safety & Law Enforcement** – Monitors streets, public transport, and crowded areas.\
+✅ **Defense & Military** – Enhances security at border checkpoints and military bases.\
+✅ **Airports & Transport Hubs** – Prevents security threats in high-traffic zones.\
+✅ **Schools & Universities** – Ensures a safe learning environment.\
+✅ **Corporate & Private Security** – Protects offices, events, and VIP premises.
+![Surveillance System Integration](https://github.com/user-attachments/assets/1ef84f3d-bc5f-4b14-a5c6-cf64b79b4444) 
+## 🔥 How It Works
 
-### 6. Customizable & Scalable Solution  
-- Model can be **fine-tuned** for specific environments like **airports, schools, stadiums, and government facilities**.  
-- Can be integrated with **facial recognition and anomaly detection** for enhanced security.  
-- Supports **API-based integration** with law enforcement databases.  
+1. **Live CCTV Stream Processing** – The system captures **real-time video feeds**.
+2. **YOLOv8 Object Detection** – Detects weapons with **high precision**.
+3. **AI Model Refinement** – Fine-tuned Generative AI reduces **false positives**.
+4. **Automated Alerts** – Sends instant notifications to **security teams**.
+5. **Live Dashboard** – Displays alerts, logs, and analytics for **real-time monitoring**.
 
-### 7. Privacy-Focused & Ethical AI Compliance  
-- Processes data in **real-time without storing personal footage**, ensuring privacy.  
-- Adheres to **AI ethics guidelines** to prevent misuse.  
-- Logs detections while maintaining **GDPR and security compliance**.  
+## 🏗️ Project Setup & Installation
 
-![Privacy & Compliance](https://github.com/user-attachments/assets/e267e059-c840-4d12-a7f4-9bf60ee263b4)  
+### **1️⃣ Clone the Repository**
 
-## Applications  
-✅ **Public Safety & Law Enforcement** – Monitors streets, public transport, and crowded areas.  
-✅ **Defense & Military** – Enhances security at border checkpoints and military bases.  
-✅ **Airports & Transport Hubs** – Prevents threats in high-traffic zones.  
-✅ **Schools & Universities** – Ensures a safe learning environment.  
-✅ **Corporate & Private Security** – Protects offices, events, and private premises.  
+```bash
+$ git clone https://github.com/surajee-kumar/real-time-weapon-detection.git
+$ cd real-time-weapon-detection
+```
 
-## Conclusion  
-This **real-time weapon detection system** combines **deep learning, computer vision, and AI-powered automation** to deliver **proactive security**. With **instant alerts, live monitoring, and seamless CCTV integration**, it helps law enforcement agencies **prevent crimes before they escalate**, ensuring **public safety and national security**.
+### **2️⃣ Install Dependencies**
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### **3️⃣ Run the Flask Server**
+
+```bash
+$ python app.py
+```
+
+### **4️⃣ Access the Web Dashboard**
+![Privacy & Compliance](https://github.com/user-attachments/assets/e267e059-c840-4d12-a7f4-9bf60ee263b4)
+Visit [**http://127.0.0.1:5000/**](http://127.0.0.1:5000/) in your browser.
+
+## 🛡️ Security & Compliance
+
+- **Data Privacy** – The system **does not store personal data**.
+- **Secure Communication** – Encrypted API for **secure data transfer**.
+- **Ethical AI Practices** – Adheres to **GDPR, AI ethics, and legal compliance**.
+
+## 🏆 Conclusion
+
+This **Real-Time Weapon Detection System** is an innovative **AI-powered security solution** that integrates **deep learning, computer vision, and automated alerts** to **enhance public safety and law enforcement**. By providing **real-time monitoring, instant notifications, and seamless CCTV integration**, this system **prevents crimes before escalation**, ensuring **proactive security** in public and private environments.
 
 ---
+
 ### 📩 Contact
-For queries, reach out via:
-📧 Email: sksurajee1245@gmail.com  
-🌐 Website: [Surajee Kumar S](https://surajee-kumar-portfolio.netlify.app/)  
+
+For queries, reach out via: 📧 Email: [**sksurajee1245@gmail.com**](mailto\:sksurajee1245@gmail.com)\
+🌐 Website: [Surajee Kumar](https://surajee-kumar-portfolio.netlify.app/)\
 🔗 LinkedIn: [Surajee Kumar](https://www.linkedin.com/in/surajee-kumar-853909256)
